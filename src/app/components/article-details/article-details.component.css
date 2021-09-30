@@ -1,0 +1,10 @@
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.image {
+  width: 400px ;
+  height: 300px ;
+  border:'solid';
+}
