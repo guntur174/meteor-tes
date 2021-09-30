@@ -11,6 +11,10 @@ import { AppComponent } from './app.component';
 import { AddArticleComponent } from './components/add-article/add-article.component';
 import { ArticleDetailsComponent } from './components/article-details/article-details.component';
 import { ArticlesListComponent } from './components/article-list/articles-list.component';
+import { AddArticleModule } from './add-article/add-article/add-article.module';
+import { AddListModule } from './add-list/add-list/add-list.module';
+import { ArticleListModule } from './article-list/article-list/article-list.module';
+import { ArticlesListModule } from './articles-list/articles-list/articles-list.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +29,10 @@ import { ArticlesListComponent } from './components/article-list/articles-list.c
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
+    AddArticleModule,
+    AddListModule,
+    ArticleListModule,
+    ArticlesListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
