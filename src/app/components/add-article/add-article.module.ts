@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { AddArticleRoutingModule } from './add-article-routing.module';
-
+import { AddArticleComponent } from './add-article.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [AddArticleComponent],
   imports: [
     CommonModule,
     AddArticleRoutingModule
