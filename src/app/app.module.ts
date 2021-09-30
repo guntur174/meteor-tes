@@ -15,6 +15,7 @@ import { AddArticleModule } from './add-article/add-article/add-article.module';
 import { AddListModule } from './add-list/add-list/add-list.module';
 import { ArticleListModule } from './article-list/article-list/article-list.module';
 import { ArticlesListModule } from './articles-list/articles-list/articles-list.module';
+import { ArticleDetailsModule } from './article-details/article-details/article-details.module';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ArticlesListModule } from './articles-list/articles-list/articles-list.
     AddListModule,
     ArticleListModule,
     ArticlesListModule,
+    ArticleDetailsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
